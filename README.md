@@ -4,7 +4,7 @@
 
 This React app enables the creation and management of a dynamic To-Do List with various features like searching, editing, and pagination. The app uses LocalStorage to save the to-do items and title, and provides a user-friendly interface for easy navigation.
 
-<img src="https://i.ibb.co/mN2cwBj/preview.jpg" alt="Dynamic List Preview" width="500" height="auto">
+<a href="https://3wntlm.csb.app/" target="_blank"><img src="https://i.ibb.co/mN2cwBj/preview.jpg" alt="Dynamic List Preview" width="500" height="auto"></a>
 
 ## Table of Contents
 
@@ -55,6 +55,10 @@ Open `http://localhost:3000` in your browser to use the application.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin feature/your-feature`)
 5. Create a new Pull Request
+
+## DEMO
+
+<a href="https://3wntlm.csb.app/" target="_blank">Dynamic To-Do List</a> 👀
 
 ## License
 
