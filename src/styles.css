@@ -8,27 +8,27 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  padding: 0 0.5rem;
+}
+
 .container {
-  padding: 2rem;
+  padding: 1rem 1.25rem 0.5rem;
+  margin: 0.5rem auto;
   max-width: 400px;
   font-family: "Segoe UI", sans-serif, Arial;
-}
-
-.new-item {
-  width: 100%;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
+  background: #f3f3f3;
+  box-shadow: 0 4px 10px 2px #ccc;
   border-radius: 0.3rem;
-  border: 1px solid gray;
+  border: 1px solid #ccc;
 }
 
-.cta {
-  padding: 0.5rem 1rem;
-  background-color: #007bff;
+.container h2 {
+  margin-top: 0;
   color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 0.3rem;
+  background: #3f7e9d;
+  text-align: center;
+  padding-block: 0.5rem;
 }
 
 .list-container {
@@ -40,6 +40,37 @@ html {
   gap: 0.5rem;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0;
   border-bottom: 1px solid #ccc;
+}
+
+.add-new-item {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.new-item,
+.search-input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid gray;
+}
+
+.cta {
+  padding: 0.5rem 1rem;
+  background-color: #359833;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+.cta.red {
+  background-color: #cc4949;
+}
+
+.item-text {
+  flex: 1;
+  line-height: 1;
 }
