@@ -1,10 +1,10 @@
-# Dynamic List React App a.k.a. To-Do List
+# Dynamic List (To-Do)
 
 ## Description
 
 This React app enables the creation and management of a dynamic To-Do List with various features like searching, editing, and pagination. The app uses LocalStorage to save the to-do items and title, and provides a user-friendly interface for easy navigation.
 
-<img src="https://i.ibb.co/mN2cwBj/preview.jpg" alt="Dynamic List Preview" width="500" height="500">
+<img src="https://i.ibb.co/mN2cwBj/preview.jpg" alt="Dynamic List Preview" width="500" height="auto">
 
 ## Table of Contents
 
